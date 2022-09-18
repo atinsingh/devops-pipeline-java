@@ -2,8 +2,8 @@ pipeline {
     agent any 
     
     environment {
-        JAVA_VERSION=11
-        DEVOPS_BATCH=AUG2022
+        JAVA_VERSION="11"
+        DEVOPS_BATCH="AUG2022"
     }
     parameters {
          choice(name: 'DEPLOYMENT_ENV', 
